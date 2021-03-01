@@ -1,0 +1,179 @@
+/* body {
+	background: #ddd;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+#main {
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 1em;
+}
+
+#menu {
+
+	background: #ddd;
+	padding: 1em;
+}
+
+#menu a {
+	color: #06f;
+	text-decoration: none;
+}
+
+#menu a.active {
+	color: #f00;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+} */
+
+body {
+	padding-top: 0px;
+}
+
+
+nav .navbar {
+	background-color: #1e3b60;
+}
+
+.theme-dropdown .dropdown-menu {
+	position: static;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.theme-showcase>p>.btn {
+	margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+	width: auto;
+}
+
+.area-conteudo {
+	margin-top: 70px;
+}
+
+.bg-darked {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+h2.blog-post-title a,
+.list-categorias .table tr td a,
+.link-blog {
+	color: #349fc0;
+}
+
+
+h2.blog-post-title a:hover,
+.list-categorias .table tr td a:hover,
+.link-blog:hover {
+	color: #123e64;
+}
+
+a.btn-blog {
+	background-color: #2784a0;
+	color: white;
+}
+
+a.btn-blog:hover {
+	background-color: #1e6379;
+	color: white;
+	transition: .3s;
+}
+
+.area-topo {
+	margin-top: 50px;
+	background-image: linear-gradient(to right, #1e3b60, #349fc0);
+}
+
+.area-topo .container h1,
+.area-topo .container h2 {
+	color: white;
+}
+
+.area-topo .container p {
+	color: white;
+}
+
+.area-identificacao {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	background-image: linear-gradient(to bottom, #1e3b60, #349fc0);
+	/* text-align: center; */
+	color: white;
+	margin-bottom: 0px;
+
+}
+
+.area-form {
+	padding-top: 120px;
+
+}
+
+@media (max-width: 991px) {
+	.area-form {
+		padding-top: 50px;
+	}
+}
+
+.blog-post-meta .badge {
+	padding: 5px 10px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.align-center {
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,12 @@
+RewriteEngine On
+
+#Descomente a linha abaixo para colocar a página de manutenção
+#RewriteRule .(/)?$ m_index.php
+
+#Verifica se a url digitada eh um arquivo caso seja para aqui
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#Verifica se a url digitada eh uma pasta caso seja para aqui
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule .(/)?$ index.php
